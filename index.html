@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body style="background-color: #aed5f8a9;">
+<div style="text-align: center;">
+    <form action="hello.html" method="post">
+        <label for="fname">NAME</label><br>
+        <input maxlength="25" type="text" id="fname" name="fname" placeholder="Name"  required><br><br>
+
+        <label for="email">EMAIL</label><br>
+        <input type="email" id="email" name="email" autofocus value="test@example.com" required><br><br>
+
+        <label for="pass">PASSWORD</label><br>
+        <input maxlength="6" type="password" id="Pass" name="pass" required><br><br>
+        
+        <label for="dp">Category</label><br>
+        <select id="dp" name="dp" required>
+            <option value="student" >student</option>
+            <option value="employee" >employee</option>
+            <option selected value="freelancer" >freelancer</option>
+        </select><br><br>
+
+        <label for="dat">Event date</label><br>
+        <input type="date" id="dat" name="dat" required><br><br>
+        
+        <input type = "radio" name = "subject" value = "Ticket1" required> Ticket1
+        <input type = "radio" name = "subject" value = "Ticket2" checked required> Ticket2
+        <input type ="radio"  name="subject" value="Ticket3"required> Ticket3 <br><br>
+
+        <input type="checkbox" id="pay" name="pay" >
+        <label for="pay">ONLINE PAYMENT</label><br><br>
+
+
+        
+        <label for="notes">NOTES</label>
+        <textarea rows="4" cols="25" id="notes" name="notes" placeholder="Enter your notes here..."></textarea>
+        <br><br>
+        <input type = "submit" value = "submit"/>
+         
+        
+        
+      </form>
+    </form>
+</div>
+    
+</body>
+</html>
